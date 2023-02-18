@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <title>contact - portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+</head>
+<body>
+<div class="full-page">
+    <div id="particles-js"></div>
+    <nav class="navbar-nav">
+        <div class="container">
+            <div class="nav-inner">
+                <div class="logo">
+                    <h1><a href="../index.html">{coding}</a></h1>
+                </div>
+                <ul class="ul">
+                    <li class="item">
+                        <a class="link" href="../index.html">home</a>
+                    </li>
+                    <li class="item">
+                        <a class="link" href="./about.html">about</a>
+                    </li>
+                    <li class="item">
+                        <a class="link" href="./techstack.html">tech stack</a>
+                    </li>
+                    <li class="item">
+                        <a class="link" href="./projects.html">projects</a>
+                    </li>
+                    <li class="item">
+                        <a class="link active" href="./contact.html">contact</a>
+                    </li>
+                    <div class="social">
+                        <a class="social-item github" href="#">
+                            <i class="bi bi-github"></i>
+                        </a>
+                        <a class="social-item facebook" href="#">
+                            <i class="bi bi-facebook"></i>
+                        </a>
+                        <a class="social-item linkedin" href="#">
+                            <i class="bi bi-linkedin"></i>
+                        </a>
+                    </div>
+                </ul>
+                <span id="burger">
+                    <i class="bi bi-list-nested"></i>
+                </span>
+            </div>
+        </div>
+    </nav>
+    <section class="contact-section page-section">
+        <div class="container">
+            <div class="contact-section-inner">
+                <div class="page-title">
+                    <h1>For any questions please mail us</h1>
+                </div>
+                <form action="">
+                    <h4 class="form-error">please fill all fields!</h4>
+                    <div class="">
+                        <label for="fullname">name</label>
+                        <input type="text" name="fullname" id="fullname" placeholder="enter your full name">
+                    </div>
+                    <div class="">
+                        <label for="email">email</label>
+                        <input type="email" name="email" id="email" placeholder="enter your email">
+                    </div>
+                    <div class="">
+                        <label for="subject">subject</label>
+                        <input type="text" name="subject" id="subject" placeholder="email subject">
+                    </div>
+                    <div class="">
+                        <label for="message">your message</label>
+                        <textarea id="message" placeholder="enter your message"></textarea>
+                    </div>
+                    <div class="">
+                        <input type="submit" value="send">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="footer-inner">
+                <div class="footer-top">
+                    <div class="logo">
+                        <h1><a href="#">{coding}</a></h1>
+                    </div>
+                    <div class="footer-info">
+                        <div class="number">
+                            +995 571 06 32 39
+                        </div>
+                        <div class="gmail">
+                            amikochixladze1234@gmail.com
+                        </div>
+                        <div class="social">
+                            <a class="social-item github" href="#">
+                                <i class="bi bi-github"></i>
+                            </a>
+                            <a class="social-item facebook" href="#">
+                                <i class="bi bi-facebook"></i>
+                            </a>
+                            <a class="social-item linkedin" href="#">
+                                <i class="bi bi-linkedin"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <div class="links">
+                        <ul class="ul">
+                            <li class="item">
+                                <a class="link" href="./index.html">home</a>
+                            </li>
+                            <li class="item">
+                                <a class="link" href="./about.html">about</a>
+                            </li>
+                            <li class="item">
+                                <a class="link" href="./techstack.html">tech stack</a>
+                            </li>
+                            <li class="item">
+                                <a class="link" href="./projects.html">projects</a>
+                            </li>
+                            <li class="item">
+                                <a class="link active" href="./contact.html">contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="made">
+                        <p>
+                            built by <span>amiko</span> with <span>Love & Coffee</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div id="dark-mode-btn">
+        <span class="icon">
+            <i class="bi bi-moon"></i>
+        </span>
+    </div>
+</div>
+
+    <script src="particles.js"></script>
+    <script src="app.js"></script>
+    <script src="index.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="../frontend/js/sendMail.js"></script>
+</body>
+</html>

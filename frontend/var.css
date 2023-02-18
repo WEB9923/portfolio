@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Overpass:wght@500&family=Poppins&display=swap');
+
+:root{
+    /*light mode*/
+    --background:#ffffff;
+    --boxShadow:#ededed;
+    --cardBackground: rgba(255, 255, 255, 0.86);
+    --inputBinackgroundColor: rgba(248, 248, 248, 0.87);
+    --darkColor:#666666;
+    --headingColor:#42446e;
+    --smallTxtColor:#797979;
+    --font:'Poppins';
+    --navFont:'DM Sans';
+    --logo:35px;
+    --headerFontSize:58px;
+    --titleFontSize:48px;
+    --underTitleFontSize:32px;
+    --cardTitleFontSize:28px;
+    --navFontSize:20px;
+    --navIcon:23px;
+    --mediumFontSize:18px;
+    --smallFontSize:16px;
+    --extraSmallFontSize:14px;
+    /*dark mode*/
+    --darkModebackground:#191919;
+    --darkModeboxShadow: #212121;
+    --darkcardBackground: rgba(25, 25, 25, 0.82);
+    --darkModedarkColor:#959595;
+    --darkModeheadingColor:#cccccc;
+    --darkModesmallTxtColor:#a7a7a7;
+}
+
+
+.container{
+    max-width: 1180px;
+    width: 100%;
+    margin: auto;
+}
+
+section{
+    margin-bottom: 150px;
+}
